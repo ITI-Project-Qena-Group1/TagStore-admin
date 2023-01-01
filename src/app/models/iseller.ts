@@ -1,4 +1,5 @@
 export interface Iseller {
+  id: string;
   sellerId: string,
   shopName: string,
   type: string,

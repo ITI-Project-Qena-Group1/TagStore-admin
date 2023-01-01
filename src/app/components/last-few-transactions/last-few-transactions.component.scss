@@ -1,7 +1,7 @@
 .transactions {
   .transaction-wrapper {
     overflow: auto;
-    height: 185px;
+    max-height: 300px;
   }
   .title {
     padding: 20px;

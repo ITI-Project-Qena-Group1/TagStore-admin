@@ -1,4 +1,5 @@
 export interface Iproduct {
+  id: string,
   title: string,
   title_ar: string,
   brand: string,
@@ -7,14 +8,21 @@ export interface Iproduct {
   category_ar: string,
   description: string;
   description_ar: string;
+  specifications: string,
+  specifications_ar: string,
   price: string,
   rating?: {
       rate?: string,
       rateNumber?: string,
-      likes: string,
       reviews: string[]
   },
   quantity: string,
   mImage: string,
-  aImages: string[]
+  aImages: string[],
+  sellerId: {
+    id: string,
+    shopName: string
+  },
+  createdAt: string,
+  updatedAt: string,
 }
